@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		197E9E8024949BD000AE7295 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 197E9E7E24949BD000AE7295 /* lamp_off.png */; };
+		197E9E8124949BD000AE7295 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 197E9E7F24949BD000AE7295 /* lamp_on.png */; };
 		19F3989F24938BFF003B36C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3989E24938BFF003B36C5 /* AppDelegate.swift */; };
 		19F398A124938BFF003B36C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F398A024938BFF003B36C5 /* SceneDelegate.swift */; };
 		19F398A324938BFF003B36C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F398A224938BFF003B36C5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		197E9E7E24949BD000AE7295 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		197E9E7F24949BD000AE7295 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 		19F3989B24938BFE003B36C5 /* ImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F3989E24938BFF003B36C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19F398A024938BFF003B36C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				19F398A724938BFF003B36C5 /* Assets.xcassets */,
 				19F398A924938BFF003B36C5 /* LaunchScreen.storyboard */,
 				19F398AC24938BFF003B36C5 /* Info.plist */,
+				197E9E7E24949BD000AE7295 /* lamp_off.png */,
+				197E9E7F24949BD000AE7295 /* lamp_on.png */,
 			);
 			path = ImageView;
 			sourceTree = "<group>";
@@ -127,7 +133,9 @@
 			files = (
 				19F398AB24938BFF003B36C5 /* LaunchScreen.storyboard in Resources */,
 				19F398A824938BFF003B36C5 /* Assets.xcassets in Resources */,
+				197E9E8124949BD000AE7295 /* lamp_on.png in Resources */,
 				19F398A624938BFF003B36C5 /* Main.storyboard in Resources */,
+				197E9E8024949BD000AE7295 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
